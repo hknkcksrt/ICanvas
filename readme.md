@@ -1,17 +1,12 @@
-
+﻿
 
 # ICanvas Project
 
-Hello This is my ICanvas Project.
+Selam Projemin adı ICanvas Project.
 -----
 
-This is my [Twitter](https://twitter.com/hknkcksrt) profile.
+	Proje amacım web site tasarımını uygulayarak daha kolay öğrenmeye çalışmak ve [Front end](https://en.wikipedia.org/wiki/Front-end_web_development) programcılığına giriş yapmak.
 
-*emre*
 
-```javascript
-alert ( 'Hello, ATlar ve diğerleri!');
-```
-*Tacar*'a selam. [Buraya](https://www.youtube.com/watch?v=joOzEkOIors) dinlenesi bir parça bırakıyorum :D
 
-Tacar: A.S
+
