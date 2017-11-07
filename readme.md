@@ -18,13 +18,13 @@ Selam Projemin adı ICanvas Project.
 * SFTP (Secure File Transfer Protocol) ile dosya yükleme
 * Sunucu tarafındaki uygulamaları dağıtma
 
-**Alan Adı Bulma;**
+### **Alan Adı Bulma;**
 -----
 
 Bir alan adı sahibi olmak gerekiyor.(uzantıya bağlı olarak yılda yaklaşık 10$-80$ arasında değişir.)
 Artık bir alan adı satın aldınız.(Tabii önceden kullanılmamış bir alan adı bulabildiyseniz.)
 
-**Barındırma Hizmeti Bulma;**
+### **Barındırma Hizmeti Bulma;**
 -----
 
 Birisinin tarayıcınıza alan adınızı her yazışında sunucunuzda bulunan web sitesi dosyaları yüklenecek şekilde bir web sunucusuyla ilişkilendirmeniz gerekiyor.
