@@ -44,7 +44,7 @@ Varsayılan olarak, SFTP, kimlik doğrulaması yapmak ve güvenli bir bağlantı
 **Uzak Dosyaları Yerel Sisteme Aktarma**
 
 ```bash
-  get remoteFile
+get remoteFile
 
 Fetching /home/demouser/remoteFile to remoteFile
 /home/demouser/remoteFile                       100%   37KB  36.8KB/s   00:01
@@ -52,4 +52,27 @@ Fetching /home/demouser/remoteFile to remoteFile
 get remoteFile localFile
 get -r someDirectory
 get -Pr someDirectory
+```
+**Yerel Dosyaları Uzak Sistemde Aktarma**
+```bash
+put localFile
+
+Uploading localFile to /home/demouser/localFile
+localFile                                     100% 7607     7.4KB/s   00:00
+
+put -r localDirectory
+
+df -h
+    Size     Used    Avail   (root)    %Capacity
+  19.9GB   1016MB   17.9GB   18.9GB           4%
+
+!
+df -h
+  Filesystem      Size   Used  Avail Capacity  Mounted on
+  /dev/disk0s2   595Gi   52Gi  544Gi     9%    /
+  devfs          181Ki  181Ki    0Bi   100%    /dev
+  map -hosts       0Bi    0Bi    0Bi   100%    /net
+  map auto_home    0Bi    0Bi    0Bi   100%    /home  
+
+exit
 ```
