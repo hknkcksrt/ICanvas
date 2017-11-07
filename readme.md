@@ -16,7 +16,18 @@ Selam Projemin adı ICanvas Project.
 * Alan adı bulma
 * Barındırma hizmeti bulma
 * SFTP (Secure File Transfer Protocol) ile dosya yükleme
-* Deploying server-side applications
+* Sunucu tarafındaki uygulamaları dağıtma
 
-Alan adı bulma;
+**Alan Adı Bulma;**
 -----
+
+Bir alan adı sahibi olmak gerekiyor.(uzantıya bağlı olarak yılda yaklaşık 10$-80$ arasında değişir.)
+Artık bir alan adı satın aldınız.(Tabii önceden kullanılmamış bir alan adı bulabildiyseniz.)
+
+**Barındırma Hizmeti Bulma;**
+-----
+
+Birisinin tarayıcınıza alan adınızı her yazışında sunucunuzda bulunan web sitesi dosyaları yüklenecek şekilde bir web sunucusuyla ilişkilendirmeniz gerekiyor.
+Bir ev bilgisayarı kullanabilir ve evinizdeki internet bağlantısından dosyalar sunabilirsiniz, ancak daha sonra tüm bant genişliği için kendiniz ödeme yapmanızın yanı sıra bilgisayarı kurmanız ve bakım yapmanız gerekecekti.
+Alternatif olarak, genellikle daha pratik ve uygun maliyetli bir barındırma hizmetinden bir web sunucusu ve bant genişliği kiralamak için ödeme yapabilirsiniz .
+Bir barındırma hizmetinden bir sunucu kiralarken, sitenize erişebilmeniz için bir yol sunar, dosyalarınızı yükleyebilir ve sitenizi ayakta tutmak için özel komut dosyaları kurabilirsiniz . 
