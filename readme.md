@@ -36,5 +36,5 @@ Bir barındırma hizmetinden bir sunucu kiralarken, sitenize erişebilmeniz içi
 Github üzerinden proje klonlanıp herhangi bir web ortamında çalıştırılabilir. Bunun için aşağıdaki kodu kullanabilirsiniz.
 
 ```bash
-git clone https://github.com/hknkcksrt/ICanvas
+git clone https://github.com/hknkcksrt/ICanvas.git
 ```
