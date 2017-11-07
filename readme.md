@@ -39,8 +39,17 @@ Varsayılan olarak, SFTP, kimlik doğrulaması yapmak ve güvenli bir bağlantı
 
 Şifreleri varsayılan olarak kullanmak ve ayarlamak kolay olmasına rağmen, SSH anahtarları oluşturmanızı ve genel anahtarınızı, erişmeniz gereken herhangi bir sisteme aktarmanız önerilir. Bu çok daha güvenlidir ve uzun vadede size zaman kazandırabilir.
 
-**Dosya yükleme komutları**
+### **Dosya yükleme komutları**
+
+**Uzak Dosyaları Yerel Sisteme Aktarma**
 
 ```bash
   get remoteFile
+
+Fetching /home/demouser/remoteFile to remoteFile
+/home/demouser/remoteFile                       100%   37KB  36.8KB/s   00:01
+
+get remoteFile localFile
+get -r someDirectory
+get -Pr someDirectory
 ```
