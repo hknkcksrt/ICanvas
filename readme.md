@@ -76,3 +76,5 @@ df -h
 
 exit
 ```
+
+### **Sunucu Tarafındaki Uygulamaları Dağıtma;**
