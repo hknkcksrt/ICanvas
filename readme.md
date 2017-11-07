@@ -29,5 +29,18 @@ Artık bir alan adı satın aldınız.(Tabii önceden kullanılmamış bir alan 
 
 Birisinin tarayıcınıza alan adınızı her yazışında sunucunuzda bulunan web sitesi dosyaları yüklenecek şekilde bir web sunucusuyla ilişkilendirmeniz gerekiyor.
 Bir ev bilgisayarı kullanabilir ve evinizdeki internet bağlantısından dosyalar sunabilirsiniz, ancak daha sonra tüm bant genişliği için kendiniz ödeme yapmanızın yanı sıra bilgisayarı kurmanız ve bakım yapmanız gerekecekti.
-Alternatif olarak, genellikle daha pratik ve uygun maliyetli bir barındırma hizmetinden bir web sunucusu ve bant genişliği kiralamak için ödeme yapabilirsiniz .
-Bir barındırma hizmetinden bir sunucu kiralarken, sitenize erişebilmeniz için bir yol sunar, dosyalarınızı yükleyebilir ve sitenizi ayakta tutmak için özel komut dosyaları kurabilirsiniz . 
+Alternatif olarak, genellikle daha pratik ve uygun maliyetli bir barındırma hizmetinden bir web sunucusu ve bant genişliği kiralamak için ödeme yapabilirsiniz.
+Bir barındırma hizmetinden bir sunucu kiralarken, sitenize erişebilmeniz için bir yol sunar, dosyalarınızı yükleyebilir ve sitenizi ayakta tutmak için özel komut dosyaları kurabilirsiniz.
+
+### **SFTP (Secure File Transfer Protocol) ile Dosya Yükleme;**
+-----
+
+Varsayılan olarak, SFTP, kimlik doğrulaması yapmak ve güvenli bir bağlantı oluşturmak için SSH protokolünü kullanır. Bu nedenle, SSH'de bulunan aynı kimlik doğrulama yöntemleri kullanılabilir.
+
+Şifreleri varsayılan olarak kullanmak ve ayarlamak kolay olmasına rağmen, SSH anahtarları oluşturmanızı ve genel anahtarınızı, erişmeniz gereken herhangi bir sisteme aktarmanız önerilir. Bu çok daha güvenlidir ve uzun vadede size zaman kazandırabilir.
+
+**Dosya yükleme komutları**
+
+```bash
+  get remoteFile
+```
