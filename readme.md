@@ -1,6 +1,6 @@
 ﻿
 
-#**ICanvas Project**
+# **ICanvas Project**
 
 Selam Projemin adı ICanvas Project.
 
@@ -11,4 +11,12 @@ Selam Projemin adı ICanvas Project.
 
 **Sitenin sunucuya deploy edilme aşamaları**
 ------
-Öncelikle ben de bilmiyordum nasıl deploy edilir bir site bir sunucuya. Sonra araştırmalar sonucunda elde edindiğim bilgiye dayanarak [Codeacademy](https://www.codecademy.com/courses) sitesindeki kursun bu konuda bana yardımcı olabileceğini öğrendim. (*Bu paragraf latife içerir.*)
+4 temel bölümden oluşmaktadır.
+
+* Alan adı bulma
+* Barındırma hizmeti bulma
+* SFTP (Secure File Transfer Protocol) ile dosya yükleme
+* Deploying server-side applications
+
+Alan adı bulma;
+-----
